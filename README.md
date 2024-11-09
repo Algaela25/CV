@@ -5,6 +5,7 @@ Link to GitHub Page:
 https://algaela25.github.io/CV/
 
 Link to the Figma project:
+https://www.figma.com/proto/PRXgbZJyq24U8nT8HPNlYd/CV-Figma?node-id=1-2&t=TiaCfk41vpRzqF3Z-1
 
 
 User profile: 
