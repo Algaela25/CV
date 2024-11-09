@@ -1,6 +1,12 @@
 # CV
 Hypermedia project. Part 1. Standard submission.
 
+Link to GitHub Page:
+https://algaela25.github.io/CV/
+
+Link to the Figma project:
+
+
 User profile: 
 - The target users are employer recruiters.
 Information architecture: 
@@ -24,7 +30,7 @@ It looks modern.
 
 describe using around 200 words (minimum) the main decisions you have made for the visual design.
 
-Link to the Figma project:
+
 
 
 • Website code (at least HTML and CSS files)
