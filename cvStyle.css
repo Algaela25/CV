@@ -75,7 +75,7 @@ nav{
 
 
 .index{
-  width: 30%;
+  width: 350px;
   height: auto;
   z-index: 1;
   background-color: #191919;
@@ -156,7 +156,7 @@ main #description{
     align-items: center;
 }
 .image-container img {
-    width: 100%;
+    width: 1000px;
     height: auto;
 }
 
