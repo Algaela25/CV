@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Currículum Vitae</title>
+    <meta name="author" content="Leah Garcia Jimenez">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cvStyle.css">
+    <script src="cv.js" type="text/javascript"> </script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Leah Garcia Jimenez</h1>
+      <img src="foto.png" alt="Fotografia de Leah Garcia Jimenez" class="profile-photo">
+    </header>
+
+    <nav> <h2>Currículum Vitae</h2> </nav>
+
+    <content class="two-columns">
+      <aside class="index">
+        <h2>INDEX</h2>
+        <ul>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      
+        <h2>Languages</h2>
+        <div class="contact-item">
+          <ul >
+            <li><p>Spanish</p></li>
+            <li><p>Catalan</p></li>
+            <li><p>Inglish</p></li>
+          </ul>
+          <ul>
+            <li><p><strong>-</strong> Native</p></li>
+            <li><p><strong>-</strong> Native</p></li>
+            <li><p><strong>-</strong> Basic </p></li>
+          </ul>
+        </div>
+
+        <h3>Projects Summer 2024</h3>
+        <ul>
+          <li><form onclick="currentSlide(1)"><p class="dot">Rogue Game</p></form></li>
+          <li><form onclick="currentSlide(2)"><p class="dot">Dungeon Game</p></form></li>
+          <li><form onclick="currentSlide(3)"><p class="dot">MasterMind</p></form></li>
+          <li><form onclick="currentSlide(4)"><p class="dot">Byte Twist</p></form></li>
+          <li><form onclick="currentSlide(5)"><p class="dot">Byte Twist (in Html5)</p></form></li>
+        </ul>
+
+      </aside>
+
+      <main>
+        <section id="about">
+          <h2>Sobre mí</h2>
+          <p>Soy responsable, adaptativa y productiva, con gran
+            creatividad, autoconfianza, facilidad para el trabajo en grupo
+            y afinidad con la tecnología.
+            A pesar de no haber tenido experiencia laboral, dispongo de
+            muchas ganas de desempeñar mi primer trabajo.
+          </p>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+          <div class="contact-item">
+            <ul >
+              <li> <p id="time">2023-In Progress<br></br></p></li>
+              <li> <p id="time">2021-2023<br></br></p></li>
+              <li> <p id="time">2017-2021<br></br></p></li>
+            </ul>
+            <ul>
+              <li>GDDV <p id="ligth">UDG</p></li>
+              <li>Bachillerato <p id="ligth">INS Baix Empordà</p></li>
+              <li>ESO <p id="ligth">INS Baix Empordà</p></li>
+            </ul>
+          </div>
+        </section>
+        <section id="more-education">
+          <h2>Other Education</h2>
+          <div class="contact-item">
+            <ul >
+                <li> <p id="time">2017<br></br></p></li>
+                <li> <p id="time">2016<br></br></p></li>
+            </ul>
+            <ul>
+              <li>Curso de Audiovisuales <p id="ligth">Ajuntament de Palafrugell</p></li>
+              <li>Curso de Mecanografia <p id="ligth">XALOC Aula de formació</p></li>
+          </ul>
+          </div>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+
+          <div class="contact-item">
+            <ul>
+              <li><p>Programation logic</p></li>
+              <li><p>C++</p></li>
+              <li><p>C#</p></li>
+              <li><p>Sql</p></li>
+              <li><p>Html/css</p></li>
+              <li><p>Js</p></li>
+
+            </ul>
+            <ul>
+              <li><p><strong>-</strong> Medium</p></li>
+              <li><p><strong>-</strong> Medium</p></li>
+              <li><p><strong>-</strong> Basic </p></li>
+              <li><p><strong>-</strong> Basic </p></li>
+              <li><p><strong>-</strong> Basic </p></li>
+              <li><p><strong>-</strong> Basic </p></li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="experience">
+          <h2>Experience</h2>
+          <p>Voluntariado en la escuela Torres Jonama de Mont-ras</p>
+          <p>Voluntariado en la escuela Torres Jonama de Palafrugell</p>
+          <p>Summer 2023 - 2 Months Es Secret Palafrugell</p>
+        </section>
+
+        <section id="project">
+          <h2>PROJECT</h2>
+          <p>These are prototipes of games that I coded with conocimientos del primer año de carrera and 
+            chat gpt help for things that don't teach me on carrear</p>
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="image-container">
+                <img src="images/im1.jpg" alt="Rogue Game">
+              </div>
+              <div class="text">Rogue Game</div>
+              <div class="subText"><p>Incomplete</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="image-container">
+                <img src="images/im2.jpg" alt="Dungeon Game">
+              </div>
+              <div class="text"><p>Dungeon Game</div>
+              <div class="subText"><p>Incomplete</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="image-container">
+                <img src="images/im3.jpg" alt="MasterMind">
+              </div>
+              <div class="text">MasterMind</div>
+              <div class="subText"><p>Complete</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="image-container">
+                <img src="images/im4.jpg" alt="Byte Twist">
+              </div>
+              <div class="text">Byte Twist</div>
+              <div class="subText"><p>Complete</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="image-container">
+                <img src="images/im5.png" alt="Byte Twist (in Html5)">
+              </div>
+              <div class="text">Byte Twist (in Html5)</div>
+              <div class="subText"><p>Incomplete</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+          </div>
+          <br>
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          </script>
+        </section>
+          
+      </main>
+
+    </content>
+
+    <footer id="footer">
+      <p>Contact</p>
+      <div>
+        <div class="contact-item">
+          <img src="email-icon.png" alt="Email address" class="icon">
+          <p>algaji2005@gmail.com</p>
+        </div>
+        <div class="contact-item">
+            <img src="phone-icon.png" alt="Phone number" class="icon">
+            <p>642245094</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
